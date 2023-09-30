@@ -1,8 +1,10 @@
+import Getstarted from "./components/Getstarted"
+
 function App() {
 
   return (
     <>
-      helpmeout
+      <Getstarted/>
       {/* routes */}
     </>
   )
