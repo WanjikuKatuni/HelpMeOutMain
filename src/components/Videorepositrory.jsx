@@ -5,7 +5,7 @@ import {FiCopy} from 'react-icons/fi'
 export default function Videorepositrory() {
   return (
     <div>
-      <main className="w-full relative top-20 px-[5%] py-4">
+      <main className="w-full relative top-20 px-[5%] py-4 mt-10">
         <section className="flex items-center gap-2 mb-5 [&>a]:text-[#141414] [&>a]:text-4 [&>a]:text-[18px]">
           <a
             href=""

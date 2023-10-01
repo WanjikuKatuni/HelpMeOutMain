@@ -13,7 +13,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/authentication" element={<Authentication />} />
-            <Route path="/userrepo" element={<Userrepository />} />
+            <Route path="/userrepository" element={<Userrepository />} />
             <Route path="/singlevideorepo" element={<Singlevideorepo />} />
           </Routes>
     </BrowserRouter>

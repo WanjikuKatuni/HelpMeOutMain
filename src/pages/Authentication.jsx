@@ -1,14 +1,12 @@
 import React from 'react'
 import Getstarted from '../components/Getstarted'
+import Header from '../components/Header'
 
 export default function Authentication() {
   return (
     <>
-        {/* header */}
-
+        <Header/>
         <Getstarted />
-
-        Authentication
     </>
   )
 }

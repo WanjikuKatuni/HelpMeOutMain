@@ -9,7 +9,7 @@ export default function
             <section className="px-[5%] py-20 grid grid-cols-2 gap-4 bg-white">
 
                 {/* left */}
-                <div>
+                <div className='mt-40'>
                     <h1 className="text-[#141414] font-bold text-[64px] leading-[64px]">Show Them <br />
                     Don’t Just Tell</h1>
                     <p className="mt-4 text-[20px] font-normal text-[#000000bf] max-w-[65%]">Help your friends and loved ones by creating and sending videos on how to get things done on a website.</p>

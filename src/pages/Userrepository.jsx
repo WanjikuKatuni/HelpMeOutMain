@@ -3,12 +3,13 @@
 import React from 'react'
 import Allvideos from '../components/Allvideos'
 import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 
 export default function Userrepository() {
   return (
     <>
-        {/* header */}
+        <Header/>
         <Allvideos/>
         <Footer/>
     </>

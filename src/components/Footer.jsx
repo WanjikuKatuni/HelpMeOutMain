@@ -1,9 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
     <footer className="px-[5%] pt-[10%] pb-[5%] grid grid-cols-4 gap-4 bg-[#120B48] text-white">
-      <img src="./images/logo-white.png" alt="" />
+      <Link to="/">
+        <img src="./images/logo-white.png" alt="" />
+      </Link>
 
       <div className="grid grid-cols-1 gap-4 [&>a]:no-underline [&>a]:text-white">
         <h3>Home</h3>

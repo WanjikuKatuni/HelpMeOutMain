@@ -5,10 +5,11 @@ import React from "react";
 import {CiSearch} from 'react-icons/ci'
 import {FiLink2} from 'react-icons/fi'
 import {CgMoreVertical} from 'react-icons/cg'
+import { Link } from "react-router-dom";
 
 export default function Allvideos() {
   return (
-    <main className="w-full relative top-20 py-4 mb-24">
+    <main className="w-full relative top-20 py-4 mb-24 mt-10">
 
         {/* userinfo and search */}
       <section className="flex items-center justify-between mx-[5%]">
@@ -38,7 +39,8 @@ export default function Allvideos() {
         </p>
 
         <div className="grid grid-cols-2 gap-4 justify-center mx-[5%]">
-          <div className="text-[#141414] border border-solid border-[#C3C3C3] rounded-lg p-5">
+
+          <Link to='/singlevideorepo' className="text-[#141414] border border-solid border-[#C3C3C3] rounded-lg p-5">
             <div>
               <img src="./images/video frame.png" alt="" className="w-full" />
             </div>
@@ -55,9 +57,9 @@ export default function Allvideos() {
                 <CgMoreVertical className="inline-block text-[24px] cursor-pointer hover:text-[#616163]" />
               </div>
             </div>
-          </div>
+          </Link>
 
-          <div className="text-[#141414] border border-solid border-[#C3C3C3] rounded-lg p-5">
+          <Link to='/singlevideorepo' className="text-[#141414] border border-solid border-[#C3C3C3] rounded-lg p-5">
             <div>
               <img src="./images/video frame (1).png" alt="" className="w-full" />
             </div>
@@ -74,7 +76,8 @@ export default function Allvideos() {
                 <CgMoreVertical className="inline-block text-[24px] cursor-pointer hover:text-[#616163]" />              
               </div>
             </div>
-          </div>
+          </Link>
+
         </div>
       </section>
 
@@ -85,7 +88,8 @@ export default function Allvideos() {
         </p>
 
         <div className="grid grid-cols-2 gap-4 justify-center mx-[5%]">
-        <div className="text-[#141414] border border-solid border-[#C3C3C3] rounded-lg p-5">
+
+        <Link to="/singlevideorepo" className="text-[#141414] border border-solid border-[#C3C3C3] rounded-lg p-5">
             <div>
               <img src="./images/video frame (2).png" alt="" className="w-full" />
             </div>
@@ -102,9 +106,9 @@ export default function Allvideos() {
                 <CgMoreVertical className="inline-block text-[24px] cursor-pointer hover:text-[#616163]" />              
               </div>
             </div>
-          </div>
+        </Link>
 
-          <div className="text-[#141414] border border-solid border-[#C3C3C3] rounded-lg p-5">
+          <Link to='/singlevideorepo' className="text-[#141414] border border-solid border-[#C3C3C3] rounded-lg p-5">
             <div>
               <img src="./images/video frame (3).png" alt="" className="w-full" />
             </div>
@@ -121,7 +125,8 @@ export default function Allvideos() {
                 <CgMoreVertical className="inline-block text-[24px] cursor-pointer hover:text-[#616163]" />              
               </div>
             </div>
-          </div>
+          </Link>
+
         </div>
       </section>
     </main>
