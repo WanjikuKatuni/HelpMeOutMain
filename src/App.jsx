@@ -1,11 +1,11 @@
-import Landing from "./pages/Landing"
+import Userrepository from "./pages/Userrepository"
 
 
 function App() {
 
   return (
     <>
-      <Landing/>
+      <Userrepository/>
       {/* routes */}
     </>
   )
