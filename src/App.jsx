@@ -1,10 +1,11 @@
-import Getstarted from "./components/Getstarted"
+import Home from "./components/Home"
+
 
 function App() {
 
   return (
     <>
-      <Getstarted/>
+      <Home/>
       {/* routes */}
     </>
   )
