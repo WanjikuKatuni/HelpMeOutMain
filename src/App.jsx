@@ -1,11 +1,11 @@
-import Userrepository from "./pages/Userrepository"
+import Singlevideorepo from "./pages/Singlevideorepo"
 
 
 function App() {
 
   return (
     <>
-      <Userrepository/>
+      <Singlevideorepo/>
       {/* routes */}
     </>
   )

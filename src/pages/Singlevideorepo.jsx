@@ -2,13 +2,13 @@
 
 
 import React from 'react'
+import Videorepositrory from '../components/Videorepositrory'
 
 export default function Singlevideorepo() {
   return (
     <>
-    Singlevideorepo
-    {/* header */}
-    {/* videorepository */}
+        {/* header */}
+        <Videorepositrory/>
     </>
   )
 }
