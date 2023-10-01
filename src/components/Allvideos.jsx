@@ -38,7 +38,7 @@ export default function Allvideos() {
         </p>
 
         <div className="grid grid-cols-2 gap-4 justify-center mx-[5%]">
-          <div className="text-[#141414] border-solid border-[#F4F6F8] rounded-lg p-5">
+          <div className="text-[#141414] border border-solid border-[#C3C3C3] rounded-lg p-5">
             <div>
               <img src="./images/video frame.png" alt="" className="w-full" />
             </div>
@@ -57,7 +57,7 @@ export default function Allvideos() {
             </div>
           </div>
 
-          <div className="text-[#141414] border-solid border-[#F4F6F8] rounded-lg p-5">
+          <div className="text-[#141414] border border-solid border-[#C3C3C3] rounded-lg p-5">
             <div>
               <img src="./images/video frame (1).png" alt="" className="w-full" />
             </div>
@@ -79,18 +79,18 @@ export default function Allvideos() {
       </section>
 
       {/* last weekes files */}
-      <section className="my-10">
+      <section className="mt-10">
         <p className="text-[18px] text-b[#616163] mb-4 mx-[5%]">
           Files from last week
         </p>
 
         <div className="grid grid-cols-2 gap-4 justify-center mx-[5%]">
-          <div className="text-[#141414] border-solid border-[#F4F6F8] rounded-lg p-5">
+        <div className="text-[#141414] border border-solid border-[#C3C3C3] rounded-lg p-5">
             <div>
               <img src="./images/video frame (2).png" alt="" className="w-full" />
             </div>
 
-            <div className="flex justify-between mt-4">
+            <div className="flex justify-between mt-4 mr-1">
               <div>
                 <h3 className="text-[20px]">How to create Facebook Ad listing</h3>
                 <p className="text-[#B9C2C8] text-[16px] mt-1">
@@ -99,17 +99,17 @@ export default function Allvideos() {
               </div>
               <div className="space-x-4">
                 <FiLink2 className="inline-block text-[24px] cursor-pointer hover:text-[#616163]" />
-                <CgMoreVertical className="inline-block text-[24px] cursor-pointer hover:text-[#616163]" />
+                <CgMoreVertical className="inline-block text-[24px] cursor-pointer hover:text-[#616163]" />              
               </div>
             </div>
           </div>
 
-          <div className="text-[#141414] border-solid border-[#F4F6F8] rounded-lg p-5">
+          <div className="text-[#141414] border border-solid border-[#C3C3C3] rounded-lg p-5">
             <div>
               <img src="./images/video frame (3).png" alt="" className="w-full" />
             </div>
 
-            <div className="flex justify-between mt-4">
+            <div className="flex justify-between mt-4 mr-1">
               <div>
                 <h3 className="text-[20px]">How to create Facebook Ad listing</h3>
                 <p className="text-[#B9C2C8] text-[16px] mt-1">
@@ -118,7 +118,7 @@ export default function Allvideos() {
               </div>
               <div className="space-x-4">
                 <FiLink2 className="inline-block text-[24px] cursor-pointer hover:text-[#616163]" />
-                <CgMoreVertical className="inline-block text-[24px] cursor-pointer hover:text-[#616163]" />
+                <CgMoreVertical className="inline-block text-[24px] cursor-pointer hover:text-[#616163]" />              
               </div>
             </div>
           </div>
