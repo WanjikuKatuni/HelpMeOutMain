@@ -51,6 +51,7 @@ export default function Header() {
       )}
 
       {!isAuthenticationRoute && !isUserRepoRoute && !isSingleVideoRepoRoute && (
+
         <Link
           to="/authentication"
           className="decoration-none text-blue-700 text-5 font-[700]"

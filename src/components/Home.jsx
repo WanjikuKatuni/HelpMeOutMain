@@ -4,12 +4,12 @@ import {BsArrowRight} from 'react-icons/bs'
 export default function 
 () {
   return (
-    <main className="bg-[#F4F6F8] relative top-20 z-1">
+    <main className="bg-[#F4F6F8] relative top-20 z-1 mt-6">
             {/* start */}
             <section className="px-[5%] py-20 grid grid-cols-2 gap-4 bg-white">
 
                 {/* left */}
-                <div className='mt-40'>
+                <div className='mt-[300px]'>
                     <h1 className="text-[#141414] font-bold text-[64px] leading-[64px]">Show Them <br />
                     Don’t Just Tell</h1>
                     <p className="mt-4 text-[20px] font-normal text-[#000000bf] max-w-[65%]">Help your friends and loved ones by creating and sending videos on how to get things done on a website.</p>
@@ -19,7 +19,7 @@ export default function
                 </div>
 
                 {/* right */}
-                <div className="grid grid-cols-2 gap-1">
+                <div className="grid grid-cols-2 gap-1 mt-32">
                     {/* left images */}
                     <div className="flex flex-col items-center space-y-14 justify-center">
                         <div className="relative">
